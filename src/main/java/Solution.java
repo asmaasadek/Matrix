@@ -6,13 +6,20 @@ public class Solution {
 
     public static void main(String[] args) {
         System.out.println("Hi..");
+//        String[][] interviewExample = {
+//                {"1", "A", "5", "7", "B", "N"},
+//                {"2", "B", "6", "8", "K", "R"},
+//                {"5", "Q", "N", "3", "B", "1"}
+//        };
         String[][] interviewExample = {
-                {"1", "A", "5", "7", "B", "N"},
-                {"2", "B", "6", "8", "K", "R"},
-                {"5", "Q", "N", "3", "B", "1"}
+                {"1", "A"},
+                {"2", "B"},
+                {"5", "Q"},
+                {"6", "S"},
+                {"3", "U"}
         };
         System.out.println(
-                getResult(interviewExample, 3, 6));
+                getResult(interviewExample, 5, 2));
 
 
     }
